@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFDFF;
+}
+
+.wearly-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 34px 0;
+}
+
+.wearly-logo img {
+    width: 163px;
+    height: 64px;
+}
+
+.main-section, .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #383737;
+}
+
+.value-proposition {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.short-message {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.ui-img img {
+    width: 578.18px;
+    height: 399.38px;
+    filter: drop-shadow(5px 5px 5px #585858);
+    margin-bottom: 50px;
+}
+
+.download-buttons {
+    width: 314.14px;
+    height: 50px;
+}
+
+.app-store {
+    width: 152.49px;
+    height: 50px;
+}
+
+.google-play {
+    width: 151.65px;
+    height: 50px;
+}
+
+.services-offered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.service-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #383737;
+}
+
+.row {
+    width: 683px;
+    height: 430px;
+}
+
+.img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #FF7347;
+    border-radius: 50%;
+    background-color: #FBFDFF;
+    position: absolute;
+    top: -30px;
+    left: -10px;
+}
+
+.item img {
+    width: 40px;
+    height: 40px;
+}
+
+.box {
+   width: 300px;
+   height: 150px;
+   background: #FBFDFF;
+   border: 1px solid rgba(56, 55, 55, 0.2);
+   border-radius: 15px;
+}
+
+.offer-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #383737;
+    padding: 5px 40px;
+}
+
+.box p {
+    padding: 0 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #383737;
+}
+
+.ending-statement {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.end-statement h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #383737;
+    margin-bottom: 30px;
+}
